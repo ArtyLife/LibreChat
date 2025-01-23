@@ -14,10 +14,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noImplicitAny": false,
-    "noEmit": false,
-    "declaration": true,
-    "declarationDir": "./types",
-    "jsx": "preserve",
+    "noEmit": true,
+    "declaration": false,
+    "jsx": "react-jsx",
     "baseUrl": "..",
     "paths": {
       "~/*": ["./client/src/*"],
